@@ -20,6 +20,7 @@ struct SplitViewIpad: View {
                 Text("\(cad)")
                 
             }
+            .navigationSplitViewColumnWidth(200000000)
         } detail: {
             //Detalle (derecha)
             Text(selectedHero ?? "Selecciona un heroe")
