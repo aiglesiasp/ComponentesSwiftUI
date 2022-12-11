@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct SlidesPanelView: View {
     @State private var showSheet = false
     var body: some View {
         VStack {
@@ -26,8 +26,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct SlidesPanelView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        SlidesPanelView()
     }
 }
