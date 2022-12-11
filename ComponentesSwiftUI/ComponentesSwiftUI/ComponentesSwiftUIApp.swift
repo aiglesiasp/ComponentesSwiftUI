@@ -11,7 +11,7 @@ import SwiftUI
 struct ComponentesSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            SlidesPanelView()
+            SplitViewIpad()
         }
     }
 }
